@@ -10,6 +10,7 @@
 <body>
 
     <?php
+        require __DIR__ . "/config.php";
         //Chamar Função
         renomear(DIRETORIO, NOVONOME);
 
