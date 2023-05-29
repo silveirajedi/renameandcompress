@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rc-app
+    ports:
+      - 80:80
+    volumes:
+      - ./:/var/www/html
