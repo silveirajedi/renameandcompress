@@ -24,7 +24,7 @@
             if (in_array(pathinfo($file, PATHINFO_EXTENSION), ['jpg', 'jpeg', 'png', 'gif'])) {
                 // Obter o caminho completo do arquivo
                 $imagePatch = $dir . "/" . $file;
-                echo "<img src='{$image->make($imagePatch, WIDTH)}'>";
+                echo "<img src='{$image->make($imagePatch, WIDTH, (is_null(HEIGHT) ? null : HEIGHT))}'>";
             }
         }
     ?>
