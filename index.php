@@ -9,8 +9,9 @@
 </head>
 <body>
 
-<p><a href="rename.php">Renomear Imagens</a></p>
-<p><a href="compress.php">Compactar Imagens</a></p>
+<p><a href="rename.php">Passo 1 - Renomear Imagens</a></p>
+<p><a href="convert.php">Passo 2 - Converter JPG</a></p>
+<p><a href="compress.php">Passo 3 - Compactar Imagens</a></p>
 
 </body>
 </html>

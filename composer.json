@@ -1,6 +1,7 @@
 {
   "require": {
     "php" : ">=8.2",
-    "coffeecode/cropper" : "2.*"
+    "coffeecode/cropper" : "2.*",
+    "ext-gd": "*"
   }
 }

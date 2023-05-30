@@ -16,7 +16,7 @@
 
         $image = new Cropper(CACHE);
 
-        $dir = DIRETORIO;
+        $dir = JPGFILES;
         $files = scandir($dir);
 
         foreach ($files as $file) {
