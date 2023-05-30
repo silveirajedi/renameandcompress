@@ -7,11 +7,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Renomear e Compactar</title>
 </head>
+<style>
+    a {
+        text-decoration: none;
+        color: brown;
+    }
+    a:hover {
+        color: black;
+    }
+</style>
 <body>
 
 <p><a href="rename.php">Passo 1 - Renomear Imagens</a></p>
 <p><a href="convert.php">Passo 2 - Converter JPG</a></p>
 <p><a href="compress.php">Passo 3 - Compactar Imagens</a></p>
+<p><a href="erase.php">APAGAR IMAGENS (Diretório: images | cache | jpgfiles)</a></p>
 
 </body>
 </html>
