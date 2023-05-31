@@ -5,7 +5,7 @@ const CACHE = "images/cache";
 const JPGFILES = "images/jpgfiles";
 
 //colocar o nome que serão renomeados os arquivos
-const NOVONOME = "Teste";
+const NOVONOME = "Nome-Foto";
 
 //escolher resolução ideal
 const WIDTH = "300";
