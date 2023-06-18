@@ -19,6 +19,12 @@ docker-compose down
 
 Alterar configurações do arquivo config.php conforme a configuração
 
+## Extras
+
+```bash
+find . -name '.DS_Store' -delete
+```
+
 
 ## Suporte
 
