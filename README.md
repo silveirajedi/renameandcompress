@@ -15,14 +15,24 @@ docker container exec  rc-app composer update
 docker-compose down
 ```
 
+
+
+
 ## Alterar Configurações
 
 Alterar configurações do arquivo config.php conforme a configuração
 
 ## Extras
 
+- Apagar arquivos do MAC pra não enviar no Git
+
 ```bash
 find . -name '.DS_Store' -delete
+```
+
+- Alterar informações do php.ini como memória
+```bash
+docker container exec rc-app cp /var/www/html/server-config/php.ini /usr/local/etc/php
 ```
 
 
