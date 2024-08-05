@@ -15,9 +15,6 @@ docker container exec  rc-app composer update
 docker-compose down
 ```
 
-
-
-
 ## Alterar Configurações
 
 Alterar configurações do arquivo config.php conforme a configuração
@@ -34,7 +31,6 @@ find . -name '.DS_Store' -delete
 ```bash
 docker container exec rc-app cp /var/www/html/server-config/php.ini /usr/local/etc/php
 ```
-
 
 ## Suporte
 
